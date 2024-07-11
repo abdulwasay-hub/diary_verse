@@ -1,70 +1,57 @@
-<h1 align="center">Feelio</h1>
+Feelio App
+Feelio is a digital diary application developed by Hammad Khalil, allowing users to journal their thoughts and experiences. It includes a secure login system and provides real-time weather updates based on the user's location.
 
-<p align="center">
-  <img src="screenshots/feature.png" width="450"/>
-</p>
 
-<br/><br/>
+Features
+Digital Diary: Write, save, and organize your thoughts, feelings, and experiences securely.
+Weather Integration: Automatically fetches and displays current weather information based on the user's location.
+User Authentication: Secure login system to protect your personal entries.
+Responsive Design: Works seamlessly across desktop and mobile devices for convenient journaling.
+Technologies Used
+Frontend: React Native
+Backend: SQL,MetroBuilder
+Database: MongoDB
+API Integration: WeatherAPI for weather data
+Installation
+To run Feelio locally, follow these steps:
 
-<a href="#">
-  <img src="https://img.shields.io/badge/ReactNative-0.73.6-blue.svg?style=flat-square" alt="rn version">
-</a>
+Clone the repository:
 
-## Introduction
+bash
+Copy code
+git clone https://github.com/Hammad-khalil/feelio.git
+cd feelio
+Install dependencies:
 
-Feelio - Your Private Space
+bash
+Copy code
+npm install
+Set up environment variables:
 
-Write your thoughts, feelings, and stories in a safe and beautiful digital diary. Express yourself freely, reflect on your journey, and grow with Feelio.
-Start writing your story today!
+Create a .env file in the root directory and add the following:
 
-## Requirements
+plaintext
+Copy code
+PORT=3000  # Replace with your desired port number
+WEATHER_API_KEY=your_weatherapi_key_here
+Replace your_weatherapi_key_here with your WeatherAPI API key.
 
-- NPM (Node Package Manager)
-- React-Native
-- Expo
+Start the server:
 
-## Features
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000 to view the app.
 
-- Lock your diary with a password
-- Customize your interface with colors
-- Organize your thoughts
-- Access your diary anywhere, anytime
+Usage
+Login: Enter your credentials to access your diary.
+Write Entries: Start journaling by writing new entries and saving them securely.
+View Weather: The app automatically fetches and displays current weather information based on your location.
+Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvement, please create an issue or submit a pull request.
 
-## Setup
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Install all packages
-
-> npm install
-
-Get your weatherapi.com api key and put it in api/weatherAPI.js
-
-> const apiKey = "YOUR_KEY"; // Replace with your API key
-
-## Screenshots
-
-  <p align="center">
-    <span>
-      <img src="screenshots/splashscreen.png" width="400px" />&nbsp;&nbsp;&nbsp;
-      <img src="screenshots/1.jpg" width="400px" />
-    </span>
-
-  </p>
-  <p align="center">
-    <span>
-       <img src="screenshots/2.jpg" width="400px" />
-    </span>
-  </p>
-  <p align="center">
-    <span>
-       <img src="screenshots/3.jpg" width="400px" />
-    </span>
-  </p>
-  <p align="center">
-    <span>
-      <img src="screenshots/4.jpg" width="400px" />&nbsp;&nbsp;&nbsp;
-      <img src="screenshots/6.png" width="400px" />&nbsp;&nbsp;&nbsp;
-      <img src="screenshots/5.jpg" width="400px" />
-    </span>
-  </p>
-
-   
+About the Developer
+Feelio app is developed by Hammad Khalil, a passionate developer with a focus on creating intuitive web applications that enhance user experience.
