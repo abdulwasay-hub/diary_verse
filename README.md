@@ -19,7 +19,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/Hammad-khalil/feelio.git
+git clone (https://github.com/abdulwasay-hub/diary_verse.git)
 cd feelio
 Install dependencies:
 
