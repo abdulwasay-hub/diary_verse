@@ -1,5 +1,5 @@
 Feelio App
-Feelio is a digital diary application developed by Hammad Khalil, allowing users to journal their thoughts and experiences. It includes a secure login system and provides real-time weather updates based on the user's location.
+Feelio is a digital diary application developed by me and my group members, with the help of some seniors, that allows users to journal their thoughts and experiences. It includes a secure login system and provides real-time weather updates based on the user's location.
 
 
 Features
